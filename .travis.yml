@@ -9,3 +9,7 @@ script:
 notifications:
   email:
     - h_portela@hotmail.com
+deploy:
+  provider: heroku
+  api_key: $HEROKU_API_KEY
+  app: hpportela-travis-heroku-test
